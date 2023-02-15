@@ -1,0 +1,19 @@
+body {
+    background: rgb(9,41,121);
+    background: linear-gradient(90deg, rgba(9,41,121,1) 4%, rgba(0,212,255,1) 100%);
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+#input {
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#btn {
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 10px;
+}
