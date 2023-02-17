@@ -8,6 +8,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer" />
     <title>Previsão do Tempo</title>
 </head>
 <body>
@@ -16,24 +21,25 @@
             <input id="input" type="text" placeholder="Insira o nome da cidade">
             <button id="btn"><i class="fa-sharp fa-solid fa-magnifying-glass"></i></button>
         </div>
-        <div id="cidade">
-            <h2>Cidade</h2>
+        
+        <div id="dados">
+            <div id="cidade">
+                <h2><i class="fa-solid fa-location-dot"></i> Cidade</h2>
+            </div>
+            <div id="condicao-climatica">
+                <h2>Condição Climática</h2>
+            </div>
+            <div id="temperatura">
+                <h2>Temperatura</h2>
+            </div>
+            <div id="umidade">
+                <h2><i class="fa-solid fa-droplet"></i> Umidade</h2>
+            </div>
+            <div id="velocidade-vento">
+                <h2><i class="fa-solid fa-wind"></i> Velocidade do Vento</h2>
+            </div>
         </div>
-        <div id="bandeira-cidade">
-            <img id="bandeira" src="" alt="">
-        </div>
-        <div id="condicao-climatica">
-            <h2></h2>
-        </div>
-        <div id="temperatura">
-            <h2>Temperatura</h2>
-        </div>
-        <div id="umidade">
-            <h2><i class="fa-solid fa-droplet"></i>Umidade</h2>
-        </div>
-        <div id="velocidade-vento">
-            <h2><i class="fa-solid fa-wind"></i> Velocidade do Vento</h2>
-        </div>
+        
         
     </div>
         
